@@ -59,9 +59,9 @@ services:
       - BEE_VERBOSITY
       - BEE_WELCOME_MESSAGE
     ports:
-      - "${API_ADDR:-1133}${BEE_API_ADDR:-:1633}"
-      - "${P2P_ADDR:-1134}${BEE_P2P_ADDR:-:1634}"
-      - "${DEBUG_API_ADDR:-127.0.0.1:1135}${BEE_DEBUG_API_ADDR:-:1635}"
+      - "${API_ADDR:-1633}${BEE_API_ADDR:-:1633}"
+      - "${P2P_ADDR:-1634}${BEE_P2P_ADDR:-:1634}"
+      - "${DEBUG_API_ADDR:-127.0.0.1:1635}${BEE_DEBUG_API_ADDR:-:1635}"
     volumes:
       - bee-1:/home/bee/.bee
     command: start
@@ -125,9 +125,9 @@ services:
       - BEE_VERBOSITY
       - BEE_WELCOME_MESSAGE
     ports:
-      - "${API_ADDR:-1233}${BEE_API_ADDR:-:1733}"
-      - "${P2P_ADDR:-1234}${BEE_P2P_ADDR:-:1734}"
-      - "${DEBUG_API_ADDR:-127.0.0.1:1235}${BEE_DEBUG_API_ADDR:-:1735}"
+      - "${API_ADDR:-1733}${BEE_API_ADDR:-:1633}"
+      - "${P2P_ADDR:-1734}${BEE_P2P_ADDR:-:1634}"
+      - "${DEBUG_API_ADDR:-127.0.0.1:1735}${BEE_DEBUG_API_ADDR:-:1635}"
     volumes:
       - bee-2:/home/bee/.bee
     command: start
@@ -191,9 +191,9 @@ services:
       - BEE_VERBOSITY
       - BEE_WELCOME_MESSAGE
     ports:
-      - "${API_ADDR:-1633}${BEE_API_ADDR:-:1833}"
-      - "${P2P_ADDR:-1634}${BEE_P2P_ADDR:-:1834}"
-      - "${DEBUG_API_ADDR:-127.0.0.1:1635}${BEE_DEBUG_API_ADDR:-:1835}"
+      - "${API_ADDR:-1833}${BEE_API_ADDR:-:1633}"
+      - "${P2P_ADDR:-1834}${BEE_P2P_ADDR:-:1634}"
+      - "${DEBUG_API_ADDR:-127.0.0.1:1835}${BEE_DEBUG_API_ADDR:-:1635}"
     volumes:
       - bee-3:/home/bee/.bee
     command: start
@@ -257,9 +257,9 @@ services:
       - BEE_VERBOSITY
       - BEE_WELCOME_MESSAGE
     ports:
-      - "${API_ADDR:-1633}${BEE_API_ADDR:-:1933}"
-      - "${P2P_ADDR:-1634}${BEE_P2P_ADDR:-:1934}"
-      - "${DEBUG_API_ADDR:-127.0.0.1:1635}${BEE_DEBUG_API_ADDR:-:1935}"
+      - "${API_ADDR:-1933}${BEE_API_ADDR:-:1633}"
+      - "${P2P_ADDR:-1934}${BEE_P2P_ADDR:-:1634}"
+      - "${DEBUG_API_ADDR:-127.0.0.1:1935}${BEE_DEBUG_API_ADDR:-:1635}"
     volumes:
       - bee-4:/home/bee/.bee
     command: start
@@ -323,9 +323,9 @@ services:
       - BEE_VERBOSITY
       - BEE_WELCOME_MESSAGE
     ports:
-      - "${API_ADDR:-1633}${BEE_API_ADDR:-:2033}"
-      - "${P2P_ADDR:-1634}${BEE_P2P_ADDR:-:2034}"
-      - "${DEBUG_API_ADDR:-127.0.0.1:1635}${BEE_DEBUG_API_ADDR:-:2035}"
+      - "${API_ADDR:-2033}${BEE_API_ADDR:-:1633}"
+      - "${P2P_ADDR:-2034}${BEE_P2P_ADDR:-:1634}"
+      - "${DEBUG_API_ADDR:-127.0.0.1:2035}${BEE_DEBUG_API_ADDR:-:1635}"
     volumes:
       - bee-5:/home/bee/.bee
     command: start
@@ -389,9 +389,9 @@ services:
       - BEE_VERBOSITY
       - BEE_WELCOME_MESSAGE
     ports:
-      - "${API_ADDR:-1633}${BEE_API_ADDR:-:2133}"
-      - "${P2P_ADDR:-1634}${BEE_P2P_ADDR:-:2134}"
-      - "${DEBUG_API_ADDR:-127.0.0.1:1635}${BEE_DEBUG_API_ADDR:-:2135}"
+      - "${API_ADDR:-2133}${BEE_API_ADDR:-:1633}"
+      - "${P2P_ADDR:-2134}${BEE_P2P_ADDR:-:1634}"
+      - "${DEBUG_API_ADDR:-127.0.0.1:2135}${BEE_DEBUG_API_ADDR:-:1635}"
     volumes:
       - bee-6:/home/bee/.bee
     command: start
@@ -410,4 +410,3 @@ volumes:
   bee-5:
   clef-6:
   bee-6:
-  
